@@ -1,0 +1,157 @@
+
+
+body {
+  font-family: 'Poppins';
+  background-color: #FF6969;
+}
+
+.mainDiv {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  color: #fff;
+}
+input {
+  width: 32px;
+  height: 22px;
+  border-radius: 8px;
+  font-size: 24px;
+  padding: 8px 16px;
+  background-color: #202124;
+  color: #fff;
+  border: 1px solid #202124;
+}
+input:focus{
+  outline: none !important;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+p {
+  text-align: center;
+}
+
+table {
+  margin: 0 auto;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.buttons2 {
+  display: flex;
+  flex-direction: row;
+}
+.customSpace {
+  width: 12px;
+}
+.customSpaceHeight {
+  height: 16px;
+}
+.button {
+  background-color: #202124;
+  color: #fff;
+  height: 40px;
+  padding: 0px 16px;
+  border-radius: 8px;
+  margin: 0 auto;
+  margin-bottom: 8px;
+
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+.button:hover {
+  background-color: #473C33;
+  color: #fff;
+  transition: background-color 0.25s;
+}
+
+.cell {
+  height: 100px;
+  width: 100px;
+  background-color: #303030;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.color-2 {
+  background-color: #F97B22;
+}
+
+.color-4 {
+  background-color: #146C94;
+}
+
+.color-8 {
+  background-color: #ED2B2A;
+}
+
+.color-16 {
+  background-color: #7149C6;
+}
+
+.color-32 {
+  background-color: #5D9C59;
+}
+
+.color-64 {
+  background-color: #850000;
+}
+
+.color-128 {
+  background-color: #006E7F;
+}
+
+.color-256 {
+  background-color: #F8B400;
+}
+
+.color-512 {
+  background-color: #50C8FF;
+}
+
+.color-1024 {
+  background-color: #CDB699;
+}
+
+.color-2048 {
+  background-color: #7AA874;
+}
+
+.number {
+  color: #FFF;
+  font-size: 35px;
+}
+
+.score {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 20px;
+}
