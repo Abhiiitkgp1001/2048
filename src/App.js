@@ -288,7 +288,7 @@ function App() {
   const checkForGameWon = (board) => {
   	for (let c = 0; c < board.length; c++) {
 	  	for (let r = board[c].length - 1; r >= 0; r--) {
-			  if(board[c][r] == 128){
+			  if(board[c][r] == 2048){
           setMessage("Game Won");
           setGameOver(true);
           return;
